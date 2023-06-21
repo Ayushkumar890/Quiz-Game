@@ -388,10 +388,10 @@ elif n.upper() == "SCIENCE":
     print()
     print(color.purple+"------------------------------------------"+color.end)
 #question 2
-    print("Q2) What food is made by bees?","\U0001F41D")
+    print("Q2) What raw food is given by cows?",)
     s = input("ans : ")
     se = s.upper()
-    if se == "HONEY":
+    if se == "MILK":
         time.sleep(1)
         print(color.green+"Hurray! You got it."+color.end)
         cor += 1
