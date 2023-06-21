@@ -374,10 +374,10 @@ elif n.upper() == "SCIENCE":
     *********************************'''+color.end)
     time.sleep(1)
 #question 1
-    print("Q1) Which planet is closest to Sun?","\U0001F31E")
+    print("Q1) Which planet is farthest to Sun?","\U0001F31E")
     s = input("ans : ")
     se = s.upper()
-    if se == "MERCURY":
+    if se == "NEPTUNE":
         time.sleep(1)
         print(color.green+"Hurray! You got it."+color.end)
         cor += 1
